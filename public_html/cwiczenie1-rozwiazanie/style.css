@@ -1,0 +1,97 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+div.wrapper {
+    width: 80%;
+    margin: auto;
+    min-width: 800px;
+}
+
+h1.page-title {
+    text-align: center;
+    font-size: 22pt;
+    color: forestgreen;
+}
+
+h1.page-title span {
+    color: #00a6b6;
+    font-style: italic;
+}
+
+p.marketing-info {
+    margin: 20px;
+    font-style: italic;
+    text-align: right;
+}
+
+div.about-lorem-ipsum {
+    padding: 20px;
+    width: 400px;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px gray solid;
+    height: 350px;
+}
+
+div.about-lorem-ipsum img {
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+
+div.about-lorem-ipsum-2 {
+    padding: 20px;
+    width: 400px;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px gray solid;
+    height: 350px;
+}
+
+div.example-cars-list {
+    vertical-align: top;
+    padding: 20px;
+    width: 400px;
+    text-align: justify;
+    display: inline-block;
+    border: 1px gray solid;
+    height: 350px;
+}
+
+div.tiles {
+    text-align: center;
+}
+
+table {
+    border: 1px black solid;
+    width: 100%;
+    paddding: 20px;
+}
+
+table thead {
+    background-color: darkseagreen;
+}
+
+table th {
+    padding: 10px;
+}
+
+table img {
+    width: 100px;
+}
+
+table tbody tr:hover {
+    background-color: lightgray;
+}
+
+footer {
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #00a6b6;
+}
