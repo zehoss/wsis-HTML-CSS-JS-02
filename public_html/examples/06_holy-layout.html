@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The holy layout</title>
+
+    <style type="text/css">
+
+        .mainContainer {
+            /*position: relative;*/
+            /*border: 3px blue solid;*/
+        }
+
+        .mainContainer > * {
+            border: 1px red dashed;
+        }
+
+        header {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            height: 70px;
+        }
+
+        nav {
+            position: absolute;
+            left: 0;
+            top: 70px;
+            bottom: 30px;
+            width: 120px;
+        }
+
+        section {
+            position: absolute;
+            left: 120px;
+            right: 0;
+            top: 70px;
+            bottom: 30px;
+            overflow: auto;
+        }
+
+        footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 30px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="mainContainer">
+
+    <header>
+        <h1>Nagłówek strony</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Link1</li>
+            <li>Link2</li>
+            <li>Kontakt</li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>Hello World!</h1>
+        <p>Witamy na stronie.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate rhoncus vehicula. Cras egestas pellentesque elit a cursus. Mauris sodales urna magna, a hendrerit eros ultrices in. In pellentesque felis in erat pharetra vehicula. Vivamus at leo sit amet ante pretium vehicula in vitae ante. Mauris rhoncus tristique nisl, id fringilla sem semper non. Donec vel diam a quam imperdiet feugiat. Nullam mattis dolor sodales, interdum eros sit amet, pharetra enim. Aliquam congue elit at justo tincidunt auctor. In vehicula, est sit amet tincidunt mollis, risus ligula vehicula urna, ut mollis purus erat sit amet erat. Etiam rutrum vulputate lectus, quis hendrerit eros condimentum nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ac est nec nulla venenatis condimentum ac non mauris.
+
+            Donec mi tellus, consectetur sit amet ullamcorper sed, fermentum eget libero. Aenean feugiat efficitur elit, quis aliquam libero pharetra sed. Donec maximus, sem a finibus tempor, erat massa laoreet felis, vel dapibus felis quam sed magna. Praesent eu augue id mauris ultrices volutpat. Aliquam at turpis non lectus efficitur lobortis. Vestibulum accumsan vestibulum libero sed tempus. Suspendisse id dolor sit amet mi molestie elementum vitae sit amet felis. Mauris gravida libero vitae posuere suscipit. Nullam ullamcorper enim urna, ac accumsan est sodales sit amet. Maecenas ipsum purus, iaculis id nunc nec, ullamcorper ultrices ante.
+
+            Donec accumsan leo eget mi fermentum, finibus convallis augue convallis. Suspendisse et velit ac nulla ullamcorper ultricies eget ac ligula. Sed sodales enim elit, vel commodo eros tempus id. Morbi ex turpis, elementum et tristique eget, venenatis quis tellus. Vivamus ac ex et augue eleifend luctus et sit amet magna. Aliquam erat volutpat. Aliquam erat volutpat. Praesent porta nunc varius nibh semper blandit. Integer placerat, quam quis porttitor facilisis, tortor felis posuere lectus, quis accumsan massa sem et lectus. Quisque euismod leo eu libero accumsan vulputate.
+
+            Sed lobortis ligula non suscipit vehicula. Quisque ac auctor nulla, a dictum purus. Morbi eu leo a sem faucibus elementum vel sed erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eu ante vitae turpis pulvinar sollicitudin et id quam. Aenean in mi ullamcorper, pretium odio eget, tempus arcu. In hac habitasse platea dictumst. Sed cursus condimentum vehicula. Quisque euismod sodales vestibulum. In eget elementum justo, sit amet convallis magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras consequat posuere orci in auctor.
+
+            Sed quis pulvinar odio. Vivamus interdum ut ipsum id sagittis. Duis semper, velit vulputate eleifend feugiat, eros ipsum finibus arcu, in pretium nunc ligula rutrum dolor. Curabitur pharetra vel orci et porta. In lobortis velit ac purus tempus, a semper lacus feugiat. Morbi iaculis rutrum placerat. Ut scelerisque consectetur quam, sit amet eleifend libero feugiat non. Suspendisse tempus nibh porta nisi laoreet placerat. Donec mattis massa sit amet luctus pellentesque. Duis in tellus vel eros volutpat aliquam. Vestibulum non nisl et lectus blandit porttitor in rutrum sapien.</p>
+    </section>
+
+    <footer>
+        Strona utworzona na potrzeby zajęć z HTML w WSIS Horyzont.
+    </footer>
+
+</div>
+
+</body>
+</html>

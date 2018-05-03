@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The holy layout</title>
+
+    <style type="text/css">
+
+        /*p.box-long-text {*/
+        /*min-height: 1200px;*/
+        /*width: 300px;*/
+        /*}*/
+
+        /*!*Fixed*!*/
+
+        div.box {
+            background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+        }
+
+        .pos-fixed {
+            position: fixed;
+            left: 100px;
+            top: 500px;
+            /*z-index: 1;*/
+        }
+
+        /*!*Absolute*!*/
+
+        div.box-rel {
+            background-color: cadetblue;
+
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+
+        div.pos-absolute {
+            background-color: blue;
+
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 100px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Pozycjonowanie elementów</h1>
+
+<div class="box pos-fixed">
+    Fixed - względem okna przeglądarki
+</div>
+
+
+<div class="box-rel">
+    <div>
+        <div class="box pos-absolute">
+            Absolute - względem elementu nadrzędnego z position: relative.
+        </div>
+    </div>
+</div>
+
+<p class="box-long-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque sodales iaculis. Suspendisse sed orci
+    vulputate, mollis massa quis, tincidunt nisl. Morbi lacus leo, vehicula vel ipsum a, bibendum dapibus mi. Mauris sit
+    amet erat vel est rutrum viverra non sit amet magna. Praesent ut eros sit amet sapien facilisis convallis ac quis
+    arcu. Mauris condimentum, sapien non elementum viverra, metus risus venenatis sapien, a vestibulum tellus lectus in
+    lacus. Cras ultrices tincidunt magna, ut dapibus massa gravida ac. Quisque quis luctus nisl. Vivamus placerat augue
+    id metus volutpat sodales. Phasellus dapibus ex id massa mattis, eget lobortis sem dictum. Cras justo velit, dapibus
+    venenatis neque vitae, tempus bibendum lacus. Mauris eget purus dapibus, efficitur risus at, vulputate ante. Vivamus
+    auctor ipsum vitae varius cursus. Nulla pharetra turpis ante, a pellentesque nulla maximus ac. Integer ac accumsan
+    risus, vitae vulputate sem.
+
+    Aliquam vitae varius purus. Phasellus porttitor nisi non arcu egestas blandit. Aliquam erat volutpat. Donec id quam
+    pulvinar, laoreet erat ut, placerat lectus. Vestibulum volutpat diam dui, a dignissim tortor semper sed. Aenean
+    vestibulum arcu quis turpis ornare fermentum. Praesent convallis aliquet felis, at fermentum tellus malesuada sit
+    amet. Duis lacinia, tortor in convallis posuere, tortor arcu facilisis arcu, at pretium dolor tellus nec quam. Nam
+    interdum pulvinar finibus. Suspendisse consectetur tincidunt enim, vel gravida eros pulvinar a. Quisque varius purus
+    justo, in interdum sem laoreet eu.
+
+    Suspendisse eu risus sodales, rutrum leo eget, vehicula risus. Phasellus placerat augue at odio feugiat, eu
+    vestibulum enim blandit. Suspendisse dictum blandit nisi, sit amet luctus urna luctus ac. Pellentesque efficitur
+    elementum tortor, vitae molestie dui auctor vel. Pellentesque habitant morbi tristique senectus et netus et
+    malesuada fames ac turpis egestas. Quisque vestibulum, nunc quis dictum tristique, quam dui viverra enim, non
+    consequat sem nisl ac enim. Proin facilisis egestas mi, vitae tempor lacus congue ac. Morbi venenatis vel arcu nec
+    cursus. Curabitur a sodales enim. Maecenas a rhoncus nibh.
+
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat.
+    Pellentesque commodo non tortor id euismod. Curabitur hendrerit massa ullamcorper, consectetur eros at, vestibulum
+    felis. Nunc rhoncus vulputate velit, in varius est interdum quis. Proin laoreet urna diam, ac consequat tortor
+    consequat et. Praesent mollis erat a ex condimentum consectetur. Class aptent taciti sociosqu ad litora torquent per
+    conubia nostra, per inceptos himenaeos. Nunc eros odio, aliquet nec faucibus id, volutpat a sapien. Nullam accumsan
+    sodales sem, a vehicula nunc eleifend ut. Vivamus maximus odio eu porta aliquet. Fusce aliquet sit amet mauris
+    pellentesque elementum. Suspendisse lacinia dolor urna, ac rutrum felis tempor sit amet.
+
+    In dictum elit enim, in blandit tellus mattis in. Maecenas mattis augue at elementum blandit. Integer a tempor enim,
+    vel vehicula purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In
+    turpis leo, volutpat eu dolor eget, dignissim varius orci. Mauris aliquam tellus eget magna hendrerit mollis. In vel
+    pharetra elit. Pellentesque accumsan aliquet diam varius tincidunt. Praesent nibh nisi, ultricies at dui sed,
+    egestas posuere leo. Proin maximus dolor at mattis accumsan. Donec leo tortor, interdum rutrum odio tempor,
+    porttitor tincidunt ante. Quisque imperdiet suscipit lectus nec pulvinar. Suspendisse sodales pellentesque arcu sed
+    faucibus. Suspendisse vestibulum blandit urna at tempor. Vestibulum porta quam a dolor rutrum fermentum.
+</p>
+
+</body>
+</html>

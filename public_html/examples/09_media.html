@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+
+        .wrapper {
+            display: flex;
+            flex-flow: row;
+        }
+
+        .wrapper > div {
+            width: 40px;
+            background-color: black;
+        }
+
+        @media (min-width: 600px) {
+            .wrapper > div:nth-child(1) {
+                background-color: #00a6b6;
+            }
+        }
+
+        @media (min-width: 700px) {
+            .wrapper > div:nth-child(1), .wrapper > div:nth-child(2) {
+                background-color: yellowgreen;
+            }
+        }
+
+        @media (min-width: 800px) {
+            .wrapper > div:nth-child(1), .wrapper > div:nth-child(2), .wrapper > div:nth-child(3) {
+                background-color: lightpink;
+            }
+        }
+
+        @media (min-width: 900px) {
+            .wrapper > div:nth-child(1), .wrapper > div:nth-child(2), .wrapper > div:nth-child(3), .wrapper > div:nth-child(4) {
+                background-color: hotpink;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            .wrapper > div {
+                background-color: green;
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div>0%</div>
+    <div>25%</div>
+    <div>50%</div>
+    <div>75%</div>
+    <div>100%</div>
+</div>
+
+
+</body>
+</html>
